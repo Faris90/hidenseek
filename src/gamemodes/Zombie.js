@@ -6,7 +6,11 @@ function Zombie() {
     this.ID = 12;
     this.name = "Zombie FFA";
     this.haveTeams = true;
-    this.zombieColor = {'r': 223, 'g': 223, 'b': 223};
+    this.zombieColor = {
+   'r': 223,
+    'g': 0,
+    'b': 0
+  };
     this.zombies = [];
     this.players = [];
 }
