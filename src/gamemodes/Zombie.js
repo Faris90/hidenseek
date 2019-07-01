@@ -65,7 +65,7 @@ Zombie.prototype.onPlayerSpawn = function(gameServer,player) {
     } else {
         // use player id as team so that bots are still able to fight (even though they probably turn into zombies very fast)
         player.team = player.pID;
-        player.color = gameServer.getRandomColor();
+        player.color = {'r': 0, 'g': 0, 'b': 223 }
     }
 
     // Spawn player
